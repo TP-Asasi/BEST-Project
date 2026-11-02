@@ -1,0 +1,21 @@
+# render.yaml lets Render create the web service from this repository (Blueprint).
+# The database values are secrets, so Render asks for them when the Blueprint is applied.
+services:
+  - type: web
+    name: best-books
+    runtime: docker
+    plan: free
+    healthCheckPath: /index.php
+    envVars:
+      - key: DB_HOST
+        sync: false
+      - key: DB_PORT
+        value: "4000"
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: DB_NAME
+        value: best_books
+      - key: DB_SSL
+        value: "true"

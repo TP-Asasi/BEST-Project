@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="BEST logo">
+  <rect width="64" height="64" rx="14" fill="#1E4D3A"/>
+  <!-- open book -->
+  <path d="M12 20c6-3 13-3 20 1v27c-7-4-14-4-20-1z" fill="#FBF7F0"/>
+  <path d="M52 20c-6-3-13-3-20 1v27c7-4 14-4 20-1z" fill="#F3E7D3"/>
+  <path d="M32 21v27" stroke="#1E4D3A" stroke-width="1.6"/>
+  <!-- bookmark ribbon -->
+  <path d="M40 18h6v14l-3-2.4-3 2.4z" fill="#D9932B"/>
+  <!-- text lines -->
+  <g stroke="#9BB5A8" stroke-width="1.6" stroke-linecap="round">
+    <path d="M16 27c4-1.4 8-1.4 12 .4M16 32c4-1.4 8-1.4 12 .4M16 37c4-1.4 8-1.4 12 .4"/>
+    <path d="M36 32c4-1.8 8-1.8 12-.4M36 37c4-1.8 8-1.8 12-.4"/>
+  </g>
+</svg>
